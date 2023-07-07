@@ -60,10 +60,7 @@ namespace Identity
 				response.EnsureSuccessStatusCode();
 
 				var responseJson = await response.Content.ReadAsStringAsync();
-				var responseData = JsonSerializer.Deserialize<ResponseData>(responseJson);
-
 				Console.WriteLine($"Response received: {responseJson}");
-				// Process the response data as needed
 			}
 			catch (Exception ex)
 			{
