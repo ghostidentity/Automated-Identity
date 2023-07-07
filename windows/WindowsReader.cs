@@ -58,7 +58,7 @@ namespace Identity
 				{
 					encryptioncode = configData.encryptioncode,
 					signaturecode = configData.signaturecode,
-					identificationcode = qrCodeValue
+					identificationcode = qrCodeValue.Replace("\"", "")
 				};
 
 
