@@ -1,14 +1,15 @@
-namespace Identity
+using System;
+
+class Program
 {
-	public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            MacReader mreader = new MacReader();
+        Console.WriteLine("Automated Identity");
+        MacReader mreader = new MacReader();
 
-            mreader.ReadConfigFile();
-            mreader.StartQRCodeDetection();
-        }
+        mreader.ReadConfigFile();
+        mreader.StartQRCodeDetection();
 
+        Console.WriteLine("Starting");
     }
 }
