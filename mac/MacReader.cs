@@ -3,7 +3,7 @@ using System.Text.Json;
 namespace Identity
 {
 
-	public class LinuxReader
+	public class MacReader
 	{
 		[DllImport("libX11")]
 		private static extern bool SetForegroundWindow(IntPtr hWnd);
