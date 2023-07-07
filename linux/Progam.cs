@@ -1,13 +1,13 @@
-namespace QRReader
+namespace Identity
 {
-	internal class Program
+	public class Program
     {
         static void Main(string[] args)
         {
-            WindowsReader wreader = new WindowsReader();
+            LinuxReader lreader = new LinuxReader();
 
-            wreader.ReadConfigFile();
-            wreader.StartQRCodeDetection();
+            lreader.ReadConfigFile();
+            lreader.StartQRCodeDetection();
         }
 
     }
