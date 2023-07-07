@@ -1,0 +1,6 @@
+{
+  "url": "
+  "encryptioncode": "",
+  "signaturecode": "",
+  "identificationcode": ""
+}
